@@ -1,0 +1,25 @@
+{
+  "errors": {
+    "exportValidation": {
+      "noFormat": "Format not specified",
+      "invalidFormat": "Invalid format",
+      "emptyFileName": "File name cannot be empty",
+      "emptyRecords": "Records cannot be empty",
+      "emptyColumns": "Columns cannot be empty"
+    },
+    "formatValue": {
+      "formatNotSupported": "Formater error : Format not supported",
+      "dateFormatNotSupported": "Formater error : Date format not supported"
+    },
+    "csvExport": {
+      "columnNotFound": "Export to CSV: Column {{.Column}} not found",
+      "recordInvalid": "Export to CSV: Record is invalid"
+    },
+    "excelExport": {
+      "recordInvalid": "Export to EXCEL: Record is invalid"
+    },
+    "export": {
+      "emptyChunk": "Export, chunk of data is empty"
+    }
+  }
+}

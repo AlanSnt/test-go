@@ -1,0 +1,25 @@
+{
+  "errors": {
+    "exportValidation": {
+      "noFormat": "Format non spécifié",
+      "invalidFormat": "Format invalide",
+      "emptyFileName": "Le nom du fichier ne peut pas être vide",
+      "emptyRecords": "Records ne peut pas être vides",
+      "emptyColumns": "Columns ne peut pas être vides"
+    },
+    "formatValue": {
+      "formatNotSupported": "Erreur de format : Format non pris en charge",
+      "dateFormatNotSupported": "Erreur de format : Format de date non pris en charge"
+    },
+    "csvExport": {
+      "columnNotFound": "Export CSV : Colonne {{.Column}} non trouvée",
+      "recordInvalid": "Export CSV : L'enregistrement est invalide"
+    },
+    "excelExport": {
+      "recordInvalid": "Export Excel : L'enregistrement est invalide"
+    },
+    "export": {
+      "emptyChunk": "Export, le chunk de données est vide"
+    }
+  }
+}
